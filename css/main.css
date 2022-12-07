@@ -108,14 +108,70 @@ body {
   font-size: 1.25em;
   height: 100%;
 }
-
-.wrapper {
-  font-weight: 700;
-  display: flex;
-  justify-content: space-between;
+header,
+ footer {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 10px;
+    color: rgb(132, 32, 89);
 }
 
-.div-1, .div-2, .div-3 {
+header {
+    font-size: 2em;
+    border-bottom: 1px solid rgb(172, 130, 167);
+    font-weight: 700;
+}
+
+footer {
+    border-top: 1px solid rgb(172, 130, 167);
+}
+
+main {
+    height: 175px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    color: rgb(132, 32, 89);
+    border-bottom: 1px solid rgb(172, 130, 167);
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+
+  .flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.flex-items {
+  color: rgb(132, 32, 89);
+  line-height: 1.5rem;
+  width: 30%;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Cormorant Garamond', serif;
+  padding: 0 10px;
+}
+#div-2 {
+  border-left: 1px solid rgb(172, 130, 167);
+  border-right: 1px solid rgb(172, 130, 167);
+}
+
+.flex-container span {
+    font-style: italic;
+}
+
+/***
+div-1, .div-2, .div-3 {
   color: rgb(213, 200, 218);
   line-height: 1.5em;
   font-size: .75em;
@@ -129,6 +185,7 @@ body {
   border-radius: 10px;
   border: 1px dotted rgb(239, 239, 234);
 }
+***/
 
 
 
